@@ -7,13 +7,6 @@ import time
 import contextlib
 import wave
 
-import torch
-
-from TTS.config import load_config
-from TTS.utils.audio import AudioProcessor
-from TTS.utils.synthesizer import Synthesizer
-from TTS.vocoder.utils.generic_utils import setup_generator
-
 
 def loly_tts(sentence, synthesizer, out_path='loly-audios/',):
     nueva_data = {}
