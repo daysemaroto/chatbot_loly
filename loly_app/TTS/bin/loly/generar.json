@@ -1,0 +1,12 @@
+{
+	"anibobi" :
+		{
+			"1":{"texto": "Hola, me llamo anibobi"}, 
+			"2":{"texto": "Bienvenidos al juego de Anibobi"}
+		},
+	"loly" :
+		{
+			"1":{"texto": "Hola, me llamo Loli"}, 
+			"2":{"texto": "Bienvenidos al juego de Loly"}
+		}
+}
