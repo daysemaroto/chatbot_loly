@@ -1,0 +1,7 @@
+{% load static %}
+{% if resultado %}
+<audio controls>
+  <source src="{% static resultado.ubicacion %}" type="audio/wav">
+</audio>
+<p>Duracion: {{resultado.duracion}} s.</p>
+{% endif %}
