@@ -25,11 +25,11 @@ python ./set_simple_rate_to_25050.py
 ```
 
 
-5. Generar el dataset de texto con el siguiente script
+8. Generar el dataset de texto con el siguiente script
 
 ```
 python ./audio_to_LJ_SpeechFormat_dataset.py
 ```
-El texto se generará en la siguiente ruta:
+El texto se generará en la siguiente ruta como un archivo .csv:
 
 ***.\dataset\LJSpeech-1.1***
